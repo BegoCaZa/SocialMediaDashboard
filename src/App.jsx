@@ -1,10 +1,12 @@
-import Button from './components/button/Button';
+import SocialsDashboard from './components/socialsDashboard/SocialsDashboard';
+// import OverviewToday from './components/OverviewToday';
 
 const App = () => {
   return (
-    <>
-      <h1>React</h1> <Button />
-    </>
+    <div className='general-container'>
+      <SocialsDashboard />
+      {/* <OverviewToday /> */}
+    </div>
   );
 };
 
