@@ -1,3 +1,7 @@
+:root{
+  --color-bg:#1D1F29;
+}
+
 *,
 *::after,
 *::before {
@@ -27,4 +31,11 @@ nav ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: var(--color-bg);
+  color: aliceblue;
+}
+
+.general-container{
+display: flex;
+flex-direction: column;
 }

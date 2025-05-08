@@ -1,15 +1,15 @@
-import styles from './socialsDashboard.module.css';
+import styles from './socialMediaStats.module.css';
 
-const SocialMediaStats = (
+const SocialMediaStats = ({
   socialIcon,
   user,
   followers,
   subtitle,
   performanceIcon,
   performanceNumber
-) => {
+}) => {
   return (
-    <div className={containerClass}>
+    <div className={styles.containerClass}>
       <div className={styles.socials}>
         <img src={socialIcon} />
         <span className={styles.userName}>{user}</span>
